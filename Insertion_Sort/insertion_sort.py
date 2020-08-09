@@ -1,12 +1,5 @@
 import numpy as np
 
-# [1 2 3 4 5]
-
-"""
-Space Complexity: O(1)
-Time Complexity: O(n^2)
-"""
-
 
 def insertion_sort(A):
     for i in range(1, len(A)):
